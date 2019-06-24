@@ -50,7 +50,7 @@ class HttpRequest extends AbstractRequest implements
      * @param array $overrides
      * @return array
      */
-    public static function defaults(array $overrides): array
+    public static function defaults(array $overrides = []): array
     {
         return $overrides + [
             HttpRequest::TIME => HttpRequest::TIME_DEFAULT,

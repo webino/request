@@ -34,7 +34,7 @@ class ConsoleRequest extends AbstractRequest implements
      * @param array $overrides
      * @return array
      */
-    public static function defaults(array $overrides): array
+    public static function defaults(array $overrides = []): array
     {
         return $overrides + [
             ConsoleRequest::TIME => ConsoleRequest::TIME_DEFAULT,

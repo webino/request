@@ -289,6 +289,9 @@ $request = $container->make(ConsoleRequest::class, ConsoleRequest::defaults([
 - *bool* isAjax() <br>
   Returns true when request was made by Ajax.
 
+- *array* *static* defaults(*array* $overrides = []) <br>
+  Returns default HTTP request options, example values.
+
 
 **ConsoleRequest**
 
@@ -297,6 +300,9 @@ $request = $container->make(ConsoleRequest::class, ConsoleRequest::defaults([
 
 - *string* getCommand() <br>
   Returns console command.
+
+- *array* *static* defaults(*array* $overrides = []) <br>
+  Returns default console request options, example values.
 
 
 ## Development
