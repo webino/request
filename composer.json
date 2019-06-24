@@ -1,6 +1,6 @@
 {
   "name": "webino/request",
-  "description": "HTTP environment support.",
+  "description": "Simple PHP environment request implementation.",
   "type": "library",
   "license": "BSD-3-Clause",
   "authors": [

@@ -1,6 +1,6 @@
 # Webino Request
 
-Simple PHP Request implementation. [WIP]
+Simple PHP environment request implementation. [WIP]
 
 [![Build Status](https://img.shields.io/travis/webino/request/master.svg?style=for-the-badge)](http://travis-ci.org/webino/request "Master Build Status")
 [![Coverage Status](https://img.shields.io/coveralls/github/webino/request/master.svg?style=for-the-badge)](https://coveralls.io/github/webino/request?branch=master "Master Coverage Status")
