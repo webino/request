@@ -11,8 +11,8 @@
   ],
   "require": {
     "php": "~7.1",
-    "webino/event-emitter": "1.*",
-    "webino/instance-container": "1.*"
+    "webino/event-emitter": "dev-develop",
+    "webino/instance-container": "dev-develop"
   },
   "require-dev": {
     "tracy/tracy": "2.*",
