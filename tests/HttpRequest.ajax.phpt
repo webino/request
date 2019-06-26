@@ -10,11 +10,12 @@
  * @license     BSD-3-Clause
  */
 
-use Tester\Assert;
-use Webino\HttpRequest;
-use Webino\InstanceContainer;
+namespace Webino;
 
-Tester\Environment::setup();
+use Tester\Assert;
+use Tester\Environment;
+
+Environment::setup();
 
 
 $container = new InstanceContainer;

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60803cbce67a10e04e3b7cd84a92e02a",
+    "content-hash": "1309dddc37885a02e86c3b3e0411c4a8",
     "packages": [
         {
             "name": "psr/container",
@@ -57,16 +57,16 @@
         },
         {
             "name": "webino/event-emitter",
-            "version": "1.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/event-emitter.git",
-                "reference": "24fb290c90daed0ea79370ebde39e70813d0157e"
+                "reference": "ebdd875bbdd9270354202492f2f4c8dddd4616d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webino/event-emitter/zipball/24fb290c90daed0ea79370ebde39e70813d0157e",
-                "reference": "24fb290c90daed0ea79370ebde39e70813d0157e",
+                "url": "https://api.github.com/repos/webino/event-emitter/zipball/ebdd875bbdd9270354202492f2f4c8dddd4616d7",
+                "reference": "ebdd875bbdd9270354202492f2f4c8dddd4616d7",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 }
             ],
             "description": "Event Emitter implementation.",
-            "time": "2019-06-21T18:52:52+00:00"
+            "time": "2019-06-26T15:39:45+00:00"
         },
         {
             "name": "webino/exceptions",
@@ -146,22 +146,22 @@
         },
         {
             "name": "webino/instance-container",
-            "version": "1.0.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/instance-container.git",
-                "reference": "3e251ac5f2b4e77622001c05e662ff0f47afb230"
+                "reference": "e19ff4ef63034812e7156f62618d5aae5cb3e396"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webino/instance-container/zipball/3e251ac5f2b4e77622001c05e662ff0f47afb230",
-                "reference": "3e251ac5f2b4e77622001c05e662ff0f47afb230",
+                "url": "https://api.github.com/repos/webino/instance-container/zipball/e19ff4ef63034812e7156f62618d5aae5cb3e396",
+                "reference": "e19ff4ef63034812e7156f62618d5aae5cb3e396",
                 "shasum": ""
             },
             "require": {
                 "php": "~7.1",
                 "psr/container": "1.*",
-                "webino/event-emitter": "1.*",
+                "webino/event-emitter": "dev-develop",
                 "webino/exceptions": "1.*"
             },
             "require-dev": {
@@ -189,7 +189,7 @@
                 }
             ],
             "description": "Class Instance Container implementation.",
-            "time": "2019-06-22T07:49:31+00:00"
+            "time": "2019-06-24T14:07:48+00:00"
         }
     ],
     "packages-dev": [
@@ -1133,16 +1133,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d50bbeeb0e17e6dd4124ea391eff235e932cbf64"
+                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d50bbeeb0e17e6dd4124ea391eff235e932cbf64",
-                "reference": "d50bbeeb0e17e6dd4124ea391eff235e932cbf64",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b592b26a24265a35172d8a2094d8b10f22b7cc39",
+                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39",
                 "shasum": ""
             },
             "require": {
@@ -1204,20 +1204,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-05T13:25:51+00:00"
+            "time": "2019-06-13T11:03:18+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "b3d4f4c0e4eadfdd8b296af9ca637cfbf51d8176"
+                "reference": "33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/b3d4f4c0e4eadfdd8b296af9ca637cfbf51d8176",
-                "reference": "b3d4f4c0e4eadfdd8b296af9ca637cfbf51d8176",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a",
+                "reference": "33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a",
                 "shasum": ""
             },
             "require": {
@@ -1253,7 +1253,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-26T20:47:49+00:00"
+            "time": "2019-06-13T11:03:18+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1603,7 +1603,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "webino/event-emitter": 20,
+        "webino/instance-container": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
