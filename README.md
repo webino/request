@@ -49,7 +49,7 @@ use Webino\HttpRequest;
 $container = new InstanceContainer;
 
 /** @var HttpRequest $request */
-$request = $instances->make(HttpRequest::class, HttpRequest::defaults([
+$request = $container->make(HttpRequest::class, HttpRequest::defaults([
     HttpRequest::QUERY_STRING => 'foo=bar&baz=bam',
     HttpRequest::SCRIPT_NAME => '/example/index.php',
     HttpRequest::SCRIPT_FILENAME => '/var/www/html/example/index.php',
