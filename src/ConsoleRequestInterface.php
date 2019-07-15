@@ -18,10 +18,19 @@ interface ConsoleRequestInterface extends RequestInterface
 {
     const COMMAND = 'CONSOLE_COMMAND';
 
+    const ARGUMENTS = 'CONSOLE_ARGS';
+
     /**
      * Returns console command.
      *
      * @return string
      */
     public function getCommand(): string;
+
+    /**
+     * Returns console arguments.
+     *
+     * @return array
+     */
+    public function getArguments(): array;
 }

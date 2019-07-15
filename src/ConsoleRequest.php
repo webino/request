@@ -40,6 +40,7 @@ class ConsoleRequest extends AbstractRequest implements
             ConsoleRequest::TIME => ConsoleRequest::TIME_DEFAULT,
             ConsoleRequest::SCRIPT_FILENAME => ConsoleRequest::SCRIPT_FILENAME_DEFAULT,
             ConsoleRequest::COMMAND => '',
+            ConsoleRequest::ARGUMENTS => [],
         ];
     }
 
@@ -51,5 +52,15 @@ class ConsoleRequest extends AbstractRequest implements
     public function getCommand(): string
     {
         return $this[$this::COMMAND] ?? $this['argv'][1] ?? '';
+    }
+
+    /**
+     * Returns console arguments.
+     *
+     * @return array
+     */
+    public function getArguments(): array
+    {
+        return $this[$this::ARGUMENTS] ?? array_slice($this['argv'], 2) ?? [];
     }
 }
