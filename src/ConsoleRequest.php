@@ -50,6 +50,6 @@ class ConsoleRequest extends AbstractRequest implements
      */
     public function getCommand(): string
     {
-        return $this[$this::COMMAND] ?? '';
+        return $this[$this::COMMAND] ?? $this['argv'][1] ?? '';
     }
 }
