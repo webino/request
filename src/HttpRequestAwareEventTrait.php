@@ -27,7 +27,7 @@ trait HttpRequestAwareEventTrait
      * Returns HTTP request.
      *
      * @return HttpRequestInterface
-     * @throws NotHttpRequestException
+     * @throws NoHttpRequestException
      */
     public function getHttpRequest(): HttpRequestInterface
     {
@@ -36,6 +36,6 @@ trait HttpRequestAwareEventTrait
             return $request;
         }
 
-        throw new NotHttpRequestException;
+        throw new NoHttpRequestException;
     }
 }

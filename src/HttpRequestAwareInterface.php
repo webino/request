@@ -20,7 +20,7 @@ interface HttpRequestAwareInterface
      * Returns PHP environment execution request.
      *
      * @return HttpRequestInterface
-     * @throws NotHttpRequestException
+     * @throws NoHttpRequestException
      */
     public function getHttpRequest(): HttpRequestInterface;
 }

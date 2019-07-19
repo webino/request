@@ -11,10 +11,10 @@
 namespace Webino;
 
 /**
- * Class NotHttpRequestException
+ * Class NoHttpRequestException
  * @package request
  */
-class NotHttpRequestException extends RuntimeException implements RequestExceptionInterface
+class NoHttpRequestException extends RuntimeException implements RequestExceptionInterface
 {
 
 }
