@@ -11,6 +11,7 @@
   ],
   "require": {
     "php": "~7.1",
+    "webino/exceptions": "dev-develop",
     "webino/event-emitter": "dev-develop",
     "webino/instance-container": "dev-develop"
   },

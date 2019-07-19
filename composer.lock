@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1309dddc37885a02e86c3b3e0411c4a8",
+    "content-hash": "a6930c5da61ce4547c426ea06a95b3f5",
     "packages": [
         {
             "name": "psr/container",
@@ -61,17 +61,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/event-emitter.git",
-                "reference": "ebdd875bbdd9270354202492f2f4c8dddd4616d7"
+                "reference": "3eebe8ac94df9e35718644620caf0442a2d2a31a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webino/event-emitter/zipball/ebdd875bbdd9270354202492f2f4c8dddd4616d7",
-                "reference": "ebdd875bbdd9270354202492f2f4c8dddd4616d7",
+                "url": "https://api.github.com/repos/webino/event-emitter/zipball/3eebe8ac94df9e35718644620caf0442a2d2a31a",
+                "reference": "3eebe8ac94df9e35718644620caf0442a2d2a31a",
                 "shasum": ""
             },
             "require": {
                 "php": "~7.1",
-                "webino/exceptions": "1.*"
+                "webino/exceptions": "dev-develop"
             },
             "require-dev": {
                 "nette/tester": "1.*",
@@ -98,11 +98,11 @@
                 }
             ],
             "description": "Event Emitter implementation.",
-            "time": "2019-06-26T15:39:45+00:00"
+            "time": "2019-07-18T02:34:25+00:00"
         },
         {
             "name": "webino/exceptions",
-            "version": "1.0.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/exceptions.git",
@@ -150,19 +150,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/instance-container.git",
-                "reference": "e19ff4ef63034812e7156f62618d5aae5cb3e396"
+                "reference": "8261ad0503d8bd0c7b6b61821499b0611bac931c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webino/instance-container/zipball/e19ff4ef63034812e7156f62618d5aae5cb3e396",
-                "reference": "e19ff4ef63034812e7156f62618d5aae5cb3e396",
+                "url": "https://api.github.com/repos/webino/instance-container/zipball/8261ad0503d8bd0c7b6b61821499b0611bac931c",
+                "reference": "8261ad0503d8bd0c7b6b61821499b0611bac931c",
                 "shasum": ""
             },
             "require": {
                 "php": "~7.1",
                 "psr/container": "1.*",
                 "webino/event-emitter": "dev-develop",
-                "webino/exceptions": "1.*"
+                "webino/exceptions": "dev-develop"
             },
             "require-dev": {
                 "nette/tester": "1.*",
@@ -189,7 +189,7 @@
                 }
             ],
             "description": "Class Instance Container implementation.",
-            "time": "2019-06-24T14:07:48+00:00"
+            "time": "2019-07-02T14:28:50+00:00"
         }
     ],
     "packages-dev": [
@@ -559,16 +559,16 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "acff8b136fad84b860a626d133e791f95781f9f5"
+                "reference": "aea6e81437bb238e5f0e5b5ce06337433908e63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/acff8b136fad84b860a626d133e791f95781f9f5",
-                "reference": "acff8b136fad84b860a626d133e791f95781f9f5",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/aea6e81437bb238e5f0e5b5ce06337433908e63b",
+                "reference": "aea6e81437bb238e5f0e5b5ce06337433908e63b",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2019-03-15T03:41:13+00:00"
+            "time": "2019-07-05T13:01:56+00:00"
         },
         {
             "name": "nette/robot-loader",
@@ -961,16 +961,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.11.8",
+            "version": "0.11.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "fcf0081bf3a254ddacffa03e78be87842d0c09c9"
+                "reference": "56b3eb2a371b60537fd20794e24af9e7e8ed4e30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fcf0081bf3a254ddacffa03e78be87842d0c09c9",
-                "reference": "fcf0081bf3a254ddacffa03e78be87842d0c09c9",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/56b3eb2a371b60537fd20794e24af9e7e8ed4e30",
+                "reference": "56b3eb2a371b60537fd20794e24af9e7e8ed4e30",
                 "shasum": ""
             },
             "require": {
@@ -983,7 +983,7 @@
                 "nette/utils": "^2.4.5 || ^3.0",
                 "nikic/php-parser": "^4.0.2",
                 "php": "~7.1",
-                "phpstan/phpdoc-parser": "^0.3.4",
+                "phpstan/phpdoc-parser": "^0.3.5",
                 "symfony/console": "~3.2 || ~4.0",
                 "symfony/finder": "~3.2 || ~4.0"
             },
@@ -996,6 +996,7 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
                 "ext-intl": "*",
                 "ext-mysqli": "*",
+                "ext-simplexml": "*",
                 "ext-soap": "*",
                 "ext-zip": "*",
                 "jakub-onderka/php-parallel-lint": "^1.0",
@@ -1031,7 +1032,7 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "time": "2019-05-28T19:58:33+00:00"
+            "time": "2019-07-08T06:55:18+00:00"
         },
         {
             "name": "psr/log",
@@ -1432,16 +1433,16 @@
         },
         {
             "name": "tracy/tracy",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tracy.git",
-                "reference": "7613eeff265b49a865add75360d1962449e3c12f"
+                "reference": "cad2ec2c40cee828ce5538a4bc5bbde7045a7c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tracy/zipball/7613eeff265b49a865add75360d1962449e3c12f",
-                "reference": "7613eeff265b49a865add75360d1962449e3c12f",
+                "url": "https://api.github.com/repos/nette/tracy/zipball/cad2ec2c40cee828ce5538a4bc5bbde7045a7c1b",
+                "reference": "cad2ec2c40cee828ce5538a4bc5bbde7045a7c1b",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1496,7 @@
                 "nette",
                 "profiler"
             ],
-            "time": "2019-06-18T12:20:11+00:00"
+            "time": "2019-07-16T14:23:55+00:00"
         },
         {
             "name": "webino/nette-tester",
@@ -1604,6 +1605,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "webino/exceptions": 20,
         "webino/event-emitter": 20,
         "webino/instance-container": 20
     },
